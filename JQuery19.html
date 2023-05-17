@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.4.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("p").contents().not("[nodeType=1]").wrap("<i/>");
+            });
+        </script>
+    </head>
+    <body>
+        <p>Hello <a href="https://www.w3schools.com/jquery/jquery_get_started.asp">w3schools</a> tutorial</p>
+    </body>
+</html>
